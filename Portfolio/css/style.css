@@ -1,0 +1,1041 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: rgb(168, 46, 69);
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*Section-1 START*/
+
+            /*HEADER START*/
+.section-1{
+    width: 100%;
+    height:700px;
+    background-image:url(../img/me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    position: relative;
+}
+/*HEADER START*/
+.header{
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+}
+.nav-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 20px;
+}
+.header h2{
+    font-size: 32px;
+    color: white;
+}
+.nav-list{
+    display: flex;
+
+}
+.nav-link{
+    list-style: none;
+    padding: 20px;
+}
+.nav-main ul li a{
+    font-size: 1.25em;
+}
+.nav-main ul li a:hover{ 
+    color:#f9004d;
+}
+.nav-social{
+    width: 100px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fa-brands.fa-github{
+    font-size: 30px;
+}
+.fa-brands.fa-github:hover{
+    color: #f9004d;
+    scale: 1.4;
+}
+.fa-brands.fa-linkedin{
+    font-size: 30px;
+}
+.fa-brands.fa-linkedin:hover{
+    color: #f9004d;
+    scale: 1.4;
+}
+            /*HEADER END*/
+
+             /*WELCOMING START*/
+
+.welcoming{
+    width: 35%;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 50px;
+    top: 200px;
+}
+.welcoming h4{
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    color:#fcfc;
+}
+.welcoming h1{
+    font-size: 40px;
+    letter-spacing: 1.4px;
+    color: white;
+}
+.welcoming h3{
+    font-size: 24px;
+    letter-spacing: 1.4px;
+    color: white;
+}
+.getinfo{
+    margin-top: 20px;
+    width: fit-content;
+    position: relative;
+}
+.getinfo input{
+    width: 300px;
+    height: 50px;
+    padding-left: 20px ;
+    border-radius: 25px;
+    border: 2px solid #f9004d;
+}
+.getinfo button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.getinfo button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+             /*WELCOMING END*/
+/*Section-1 END*/
+
+/*Section-2 START*/
+
+.section-2{
+    width: 100%;
+    height: 400px;
+    background: #0e0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img{
+    width: 30%;
+    height: 100%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(60%);
+    border-radius: 20%;
+    margin-left: 20px;
+}
+.about-con{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-con h1{
+    color: white;
+    font-size: 40px;
+}
+.about-con h5{
+    color: white;
+    font-size: 24px;
+    margin: 5px;
+}
+.about-con p{
+    color: #fcfc;
+    text-align: center;
+}
+
+/*Section-2 END*/
+
+/*Section-3 START*/
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    background:#181B1A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Developer Services START*/
+
+.developer-services{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.developer-services .head1 h2{
+    color: white;
+    font-size: 40px;
+}
+/*DEV CARDS START */
+.dev-cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*First Card of dev cards START */
+.dev-card{
+    width: 25%;
+    height: 100%;
+}
+.dev-card .dev-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    
+}
+.dev-card .dev-cardrot:hover{
+    transform: rotateY(180deg);
+}
+.dev-card .dev-card-front{
+    width: 100%;
+    height: 100%;
+    background: #262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dev-card .dev-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.dev-card .dev-card-front span{
+    color: #9788E2;
+}
+.dev-card .dev-card-front img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.dev-card .dev-card-front .fa-browser{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+
+}
+
+.dev-card .dev-card-back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+}
+.dev-card .dev-card-back img{
+    width: 100px;
+    height: 100px;
+}
+.dev-card .dev-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+}
+.dev-card .dev-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre-line;
+}
+.dev-card .dev-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.dev-card .dev-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+/*First Card of dev cards  END */
+
+/*Second Card of dev cards START */
+
+.dev-card-2{
+    width: 25%;
+    height: 100%;
+
+}
+.dev-card-2 .dev-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    
+}
+.dev-card-2 .dev-cardrot:hover{
+    transform: rotateY(180deg);
+}
+.dev-card-2 .dev-card-front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+    
+}
+.dev-card-2 .dev-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: pre-line;
+    text-align: center;
+}
+.dev-card-2 .dev-card-front span{
+    color: #9788E2;
+}
+.dev-card-2 .dev-card-front img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.dev-card-2 .dev-card-back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+}
+.dev-card-2 .dev-card-back img{
+    width: 100px;
+    height: 100px;
+    
+}
+.dev-card-2 .dev-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+}
+.dev-card-2 .dev-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+}
+.dev-card-2 .dev-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.dev-card-2 .dev-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+/*Second Card of dev cards END */
+
+/*Third Card of dev cards START */
+
+.dev-card-3{
+    width: 25%;
+    height: 100%;
+
+}
+.dev-card-3 .dev-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+    
+}
+.dev-card-3 .dev-cardrot:hover{
+    transform: rotateY(180deg);
+}
+.dev-card-3 .dev-card-front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+    
+}
+.dev-card-3 .dev-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: pre-line;
+    text-align: center;
+}
+.dev-card-3 .dev-card-front span{
+    color: #9788E2;
+}
+.dev-card-3 .dev-card-front img{
+    width: 100px;
+    height: 100px;
+    scale: 2;
+    margin-top: 5px;   
+}
+
+.dev-card-3 .dev-card-back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+}
+.dev-card-3 .dev-card-back img{
+    width: 100px;
+    height: 100px;
+    scale: 2;
+    
+}
+.dev-card-3 .dev-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+}
+.dev-card-3 .dev-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre;
+    text-align: center;
+}
+.dev-card-3 .dev-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.dev-card-3 .dev-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+/*Third Card of dev cards END */
+
+/*Developer Services End*/
+
+
+.services-line{
+    width: 80%;
+    height: 2px;
+    background: #858585;
+}
+
+/* Electric Services Start*/
+
+.Electric-services{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Electric-services .head1 h2{
+    color: white;
+    font-size: 40px;
+
+}
+.elec-cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*First card of elec cards  START*/
+.elec-card{
+    width: 25%;
+    height: 100%;
+}
+.elec-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.elec-cardrot:hover{
+   transform: rotateY(180deg);
+}
+.elec-card-front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+}
+.elec-card .elec-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card .elec-card-front span{
+    color: #9788E2;
+}
+.elec-card .elec-card-front img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;   
+}
+.elec-card-back{
+    width: 100%;
+    height: 100%;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elec-card .elec-card-back img{
+    width: 100px;
+    height: 100px;
+    
+}
+.elec-card .elec-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+}
+.elec-card .elec-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card .elec-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.elec-card .elec-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+/*First card of elec cards  END*/
+
+/*Second card of elec cards  START*/
+
+.elec-card-2{
+    width: 25%;
+    height: 100%;
+}
+.elec-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.elec-cardrot:hover{
+   transform: rotateY(180deg);
+}
+.elec-card-2 .elec-card-front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+}
+.elec-card-2  .elec-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card-2 .elec-card-front span{
+    color: #9788E2;
+}
+.elec-card-2 .elec-card-front img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+.elec-card-2 .elec-card-back{
+    width: 100%;
+    height: 100%;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elec-card-2 .elec-card-back img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    
+}
+.elec-card-2 .elec-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+}
+.elec-card-2 .elec-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card-2 .elec-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.elec-card-2 .elec-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+/*Second card of elec cards  END*/
+
+/*Third card of elec cards  START*/
+
+.elec-card-3{
+    width: 25%;
+    height: 100%;
+}
+.elec-cardrot{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.elec-cardrot:hover{
+   transform: rotateY(180deg);
+}
+.elec-card-3 .elec-card-front{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:#262B32;
+    position: absolute;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #bbafaf inset ;
+}
+.elec-card-3  .elec-card-front p{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card-3 .elec-card-front span{
+    color: #9788E2;
+}
+.elec-card-3 .elec-card-front img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+.elec-card-3 .elec-card-back{
+    width: 100%;
+    height: 100%;
+    background: #856801;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #353232 inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elec-card-3 .elec-card-back img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.elec-card-3 .elec-card-back h2{
+    margin-left: 5px;
+    font-size: 24px;
+    color: orangered;
+    text-align: center;
+}
+.elec-card-3 .elec-card-back p{
+    margin-left: 5px;
+    color: white;
+    white-space: pre-line;
+    text-align: center;
+}
+.elec-card-3 .elec-card-back button{
+    width: 75px;
+    height: 40px;
+    border: 0;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    margin:auto;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000 , 0px 0px 15px #858585 ;
+}
+.elec-card-3 .elec-card-back button:hover{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+/*Third card of elec cards  END*/
+
+/*Electrical Services End*/
+/*Section-3 END*/
+
+/*Section-4 START*/
+.section-4{
+    width: 100%;
+    height: 100vh;
+    background:#181B1A ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.line1{
+    width: 90%;
+    height: 3px;
+    background: #858585;
+    position: absolute;
+    top: 40px;
+
+}
+.overlay2{
+    width: 100%;
+    height: 50px;
+    background:whitesmoke;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius:180%;
+    border-top-right-radius:180%;
+    border: top left radius 20%; ;
+}
+.section-4 h2{
+    font-size: 60px;
+    color:white; 
+}
+
+.slide-container{
+    height: 60%;
+    max-width: 1500px;
+    padding: 30px;
+    display: flex; 
+    background:#262B32;
+    border-radius: 25px;
+}
+.slide-content{
+    margin: 40px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.skills-content-1{
+    width: 300px !important;
+    height: 400px !important;
+    margin-top: 10px;
+    background: #856801;
+    border-radius: 20px;
+    box-shadow: 2px 5px 8px #2b2424 inset ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.skills-content-1 .img-con{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills-content-1 h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.skills-content-1 img{
+    width: 100px;
+    height: 100px;
+}
+.skills-content-1 .line{
+    width: 90%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.644);
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.circle-con{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.levels-circle{
+    width: 20px;
+    height: 20px;
+    background: #ebdf3c;
+    border-radius: 50%;
+}
+
+.swiper-navBtn{
+    color: #374468;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #161816;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+ /*SECTION 4 END*/
+
+ /*FOOTER START*/
+.foot-con{
+    width: 100%;
+    height: 30vh;
+    background:whitesmoke;
+    display: flex;
+}
+.img-foot{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.img-foot img{
+    width: 150px;
+    height: 150px;
+}
+.article{
+    width: 33%;
+    height: 100%;
+}
+.article p,h1{
+    white-space: pre-line;
+    text-align: center;
+}
+.foot-con .links{
+    width: 30%;
+    height: 100%;
+}
+.foot-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-list .fa-brands.fa-github{
+    color: black;
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+}
+.foot-list .fa-brands.fa-github:hover{
+    color: #f9004d;
+    scale: 1.4;
+}
+.foot-list .fa-brands.fa-linkedin{
+    color: black;
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+}
+.foot-list .fa-brands.fa-linkedin:hover{
+    color: #f9004d;
+    scale: 1.4;
+}
+.foot-list .opensea{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+}
+.opensea img{
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+    margin: 0px 10px 0px 10px;
+}
+.foot-list .opensea:hover{
+    scale: 1.4;
+}
+ /*FOOTER END*/
