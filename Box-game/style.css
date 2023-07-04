@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    background-color: aquamarine;
+    height: 75px;
+    align-items: center;
+}
+#board{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.score-con{
+    display: flex;
+}
